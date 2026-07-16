@@ -1,0 +1,40 @@
+# ========================
+# Python / Django Backend
+# ========================
+Backend/backend/.venv/
+Backend/backend/__pycache__/
+Backend/backend/**/__pycache__/
+Backend/backend/**/*.pyc
+Backend/backend/**/*.pyo
+Backend/backend/db.sqlite3
+Backend/backend/cloudmosaic_v1_foundation_backup.sqlite3
+Backend/backend/.env
+Backend/backend/logs/
+Backend/backend/media/
+Backend/backend/staticfiles/
+Backend/backend/.flake8
+Backend/backend/schema.yml
+
+# ========================
+# Node / React Frontend
+# ========================
+Frontend/node_modules/
+Frontend/build/
+Frontend/.env
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# ========================
+# OS / Editor
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
