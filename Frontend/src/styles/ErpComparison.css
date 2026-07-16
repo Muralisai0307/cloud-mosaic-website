@@ -1,0 +1,125 @@
+.comparison-hero {
+    padding: 150px 20px 80px;
+    background: linear-gradient(135deg, var(--bg-body), var(--card-bg));
+    text-align: center;
+}
+.comparison-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.comparison-hero p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.comparison-section {
+    padding: 80px 20px;
+    background: var(--about-bg);
+}
+
+.feature-table-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+    border: 1px solid var(--glass-border);
+}
+
+.feature-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.feature-table th, .feature-table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid var(--glass-border);
+    color: var(--text-primary);
+}
+
+.feature-table th {
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.02);
+    font-size: 1.1rem;
+}
+
+body.dark-theme .feature-table th {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.feature-table td.brand-col, .feature-table th.brand-col {
+    background: var(--accent-gradient);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.feature-table tr:last-child td {
+    border-bottom: none;
+}
+
+.advantage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 60px auto 0;
+}
+
+.advantage-card {
+    background: var(--card-bg);
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: var(--card-shadow);
+    border: 1px solid var(--glass-border);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.advantage-card:hover {
+    transform: translateY(-10px);
+}
+
+.advantage-card i {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.advantage-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--text-primary);
+}
+
+.advantage-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.comparison-section .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.comparison-section .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: var(--accent-gradient);
+    border-radius: 2px;
+}
